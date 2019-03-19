@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+        <title>Academy Cinemas</title>
+    </head>
+    
+    <body>
+        
+        <div class="container my-5">
+
+           
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-info" id="navbarTogglerDemo02">
+                        <a class="navbar-brand" href="#">Menu</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        
+                          
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#showtimes">Showtimes</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                </li>
+                              </ul>
+                              <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                              </form>
+                            </div>
+                    </nav>
+
+                    <div class="jumbotron jumbotron-fluid bg-info text-center">
+                        <div class="container">
+                            <h1 class="display-4 text-light">Academy Cinemas</h1>
+                            <p class="lead text-light">Sit back, relax, and enjoy the show.</p>
+                        </div>
+                    </div>
+                    <div class="container bg-info text-center">
+                        <div class="row">
+                            <div class="col-sm">
+                                <img class="img-fluid" src="./img/pdx.jpg" alt=""/>
+                            </div>
+                            
+                            <div class="col-sm">
+                                <h3>Accommodations:</h3>
+                                <p>Located in beautiful Portland, Oregon's Pearl district, our reels have been spinning since 1959.</p>
+                                <p>SHowing our guests a grat time is our passion and seeing their smiles is our pleasure!</p>
+                                <p>All of our auditoriums are equipped brand new Christie 3D&reg; sound systems</p>
+                                <p>Relax in our, extra-wide, plush cushioning recliners. Our seating arrangement is disability friendly &#9855;.</p>
+                            </div>
+                            
+
+
+
+                            <!-- Showtimes -->
+
+
+                            
+                            <!-- /showtimes -->
+
+                            <!-- Jumbotron heading -->
+                            <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+                                <div class="container">
+                                    <h1 class="display-4 hidden-sm-down" style="color:#fff;font-family:roboto;font-weight:900;text-transform: uppercase;">Movie Deals</h1>
+                                    <p class="lead">Check out our monthly deals.</p>
+                                    <!-- movie deals -->
+                                    
+                                
+                                    <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                      <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                          <div class="modal-header text-center">
+                                            <h4 class="modal-title w-100 font-weight-bold">Sign up!</h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                              <span aria-hidden="true">&times;</span>
+                                            </button>
+                                          </div>
+
+                                          <div class="modal-body mx-3">
+                                              <div class="md-form mb-5">
+                                                <i class="fas fa-envelope prefix grey-text"></i>
+                                                <input type="firstname" id="defaultForm-firstname" class="form-control validate">
+                                                <label data-error="wrong" data-success="right" for="defaultForm-email">First Name</label>
+                                              </div>
+
+                                          <div class="modal-body mx-3">
+                                              <div class="md-form mb-5">
+                                                <i class="fas fa-envelope prefix grey-text"></i>
+                                                <input type="lastname" id="defaultForm-lastname" class="form-control validate">
+                                                <label data-error="wrong" data-success="right" for="defaultForm-email">Last Name</label>
+                                              </div>   
+
+                                          <div class="modal-body mx-3">
+                                            <div class="md-form mb-5">
+                                              <i class="fas fa-envelope prefix grey-text"></i>
+                                              <input type="email" id="defaultForm-email" class="form-control validate">
+                                              <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                                            </div>
+
+                                            <div class="md-form mb-4">
+                                              <i class="fas fa-lock prefix grey-text"></i>
+                                              <input type="password" id="defaultForm-pass" class="form-control validate">
+                                              <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                                            </div>
+
+                                          </div>
+
+                                          <div class="modal-footer d-flex">
+                                              <button class="btn btn-default">Register</button>
+                                          </div>
+
+                                          <div class="modal-footer d-flex">
+                                            <button class="btn btn-default">Cancel</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="text-center">
+                                      <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">See our monthly movie deals.</a>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <!-- /Jumbotron heading -->
+
+
+                            <!-- Navigation -->
+                            <div class="col-sm">
+                                <ul class="nav nav-pills nav-fill">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Beauty and the Beast</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Kong: Skull Island</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Ghost in the Shell</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /Navigation -->
+
+
+                        </div>
+                    </div>
+
+                    <!-- signup form -->
+                    <div class="row">
+                        <div class="container text-centr col-md-6" id="deals">
+                            <div class="container text-center">
+                                <h1 class="display-5 my-4 col-lg-auto text-primary">Stay current on movies!</h1>
+                                <div class="input-group mb-5 input-group-sm">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-secondary btn-info popover-dismiss" type="button" data-container="body" data-toggle="popover" data-placement="top" data-content="Submit e-mail to receive movie rewards.">
+                                            Rewards!
+                                          </button>
+                                          Signup
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /signup form-->
+
+                    <!-- form modal -->
+
+                    <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header text-center">
+                            <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body mx-3">
+                            <div class="md-form mb-5">
+                              <i class="fas fa-envelope prefix grey-text"></i>
+                              <input type="email" id="defaultForm-email" class="form-control validate">
+                              <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                            </div>
+
+                            <div class="md-form mb-4">
+                              <i class="fas fa-lock prefix grey-text"></i>
+                              <input type="password" id="defaultForm-pass" class="form-control validate">
+                              <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                            </div>
+
+                          </div>
+                          <div class="modal-footer d-flex justify-content-center">
+                            <button class="btn btn-default">Login</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="text-center">
+                      <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">LaunchModal Login Form</a>
+                    </div>
+
+                    <!-- /form modal -->
+
+                    <!-- footer -->
+                    
+
+                    <div class="container my-5">
+                          <ul class="nav nav-inline">
+                              <li class="nav-item">
+                                  <small><a class="nav-link active" href="#">Movie Rewards</a></small>
+                              </li>
+                              <li class="nav-item">
+                                  <small><a class="nav-link" href="#">Movies@news.org</a></small>
+                              </li>
+                              <li class="nav-item">
+                                  <small><a class="nav-link" href="#">Info@academycinemas.com</a></small>
+                              </li>
+                              <li class="nav-item">
+                                  <small class="nav-link">&copy;2019 Academy Cinemas&reg;</small>
+                              </li>
+                          </ul>
+                    </div>
+                    <!-- /footer -->
+
+        </div>
+
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+        <script>
+        $('.popover-dismiss').popover({
+            trigger: 'focus'
+        })
+
+        $('#myModal').on('shown.bs.modal', function () {
+          $('#myInput').trigger('focus')
+        })
+        </script>
+    
+    </body>
+</html>
